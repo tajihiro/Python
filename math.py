@@ -7,3 +7,7 @@ def is_factor(a, b):
 print(is_factor(6, 18))
 print(is_factor(6, 19))
 
+for i in range(1, 15):
+    a = i
+    b = i + 3 * 8
+    print(str(a)  + '/' + str(b) + ':' + str(is_factor(a, b)))
