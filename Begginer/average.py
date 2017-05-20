@@ -11,3 +11,6 @@ print("平均：{:.1f}点".format(ave))
 
 print("-----------")
 print("合計：" + str(sum(score_list)))
+
+score_list.append(40)
+print("合計：" + str(sum(score_list)))
